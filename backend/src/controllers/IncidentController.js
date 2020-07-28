@@ -6,6 +6,7 @@ module.exports = {
 
         const [count] = await connection('incidents').count();
 
+        //teste git
         console.log(count);
 
         const incidents = await connection('incidents')
